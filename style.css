@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    Font-size: 18px;
+    font-family: "Bai Jamjuree";
+}
+.color{
+   color: hsl(171 15% 27%);
+   color: hsl(233, 100%, 69%);
+   color: hsl(210, 10%, 33%);
+   color: hsl(201, 11%, 66%);
+}
+.content_1 p,.content_2 p,.content_3 p,.content_4 p,.content_5 p{
+    color: hsl(201, 11%, 66%);
+}
+.content_1 h1,.content_2 h1,.content_3 h1,.content_4 h1,.content_5 h1,.content_4 h3{
+    color: hsl(171 15% 27%);;
+}
+.header{
+    background-image: url(images/bg-header-desktop.png);
+}
+.logo,.foot_logo{
+    height: 100px;
+}
+.logo{
+    margin: 70px;
+}
+.obj,.dapo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.ios,.mac{
+    margin: 10px;
+}
+.ios button{
+    background-color: green;
+    color: #fff;
+    padding: 18px 18px;
+    border-radius: 25px;
+    border: none;
+}
+.mac button{
+    background-color: hsl(233, 100%, 69%);
+    color: #fff;
+    padding: 18px 18px;
+    border-radius: 25px;
+    border: none;
+}
+.heading_logo{
+    justify-content: center;
+    display: flex;
+}
+.snippets{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.sub_snippets_1 img{
+    height: 500px;
+    position: relative;
+    left: -4%;
+}
+.sub_snippets_2{
+    text-align: justify;
+    margin-left: 50px;
+    align-items: center;
+}
+.access_img img{
+    height: 500px;
+    margin-top: 70px;
+}
+.quick,.icloud,.complete{
+    margin: 40px;
+}
+.main_snippets{
+    margin-top: 100px;
+}
+.content_3{
+    margin-top: 70px;
+}
+.access_heading h1{
+    margin-bottom: 15px;
+}
+.content_1 h1,.content_1 p,.snippets h1,.snippets p{
+    margin: 20px;
+}
+.content_1,.snippets,.content_3,.supercharge_heading,.content_5{
+    text-align: center;
+}
+.main_snippets,.buhari,.tinubu,.content_6,.section_1{
+    display: flex;
+}
+.buhari,.tinubu{
+    justify-content: center;
+}
+.blacklists,.plain_text,.preview{
+    text-align: center;
+    margin: 20px;
+}
+.google_logo,.ibm_logo,.microsoft_logo,.hp_logo,.vector_logo{
+    margin: 60px;
+}
+.content_6{
+    justify-content: space-between;
+    align-items: center;
+}
+.section_1{
+    align-items: center;
+}
+.buhari{
+    margin-bottom: 50px;
+    margin-bottom: 50px;
+}
+.buhari img{
+    height: 25px;
+}
+.buhari h3,.supercharge_heading p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content_5 p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.content_5 h1{
+    margin-top: 50px;
+}
+.content_5{
+    margin-bottom: 100px;
+}
+.content_6{
+    padding: 10px 80px;
+    background-color: hsl(201, 11%, 80%);;
+}
+.sub_2,.sub_3,.sub_4{
+    margin: 45px;
+}
+.section_1 ul li{
+    list-style-type: none;  
+}
+.section_1 ul li a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+.socials i{
+    margin: 10px;
+    color: hsl(210, 10%, 33%);
+}
+
+
+/********* media query start *********/
+@media(min-width:768px){
+    .break{
+        display: none;
+    }
+}
+@media(max-width:767px){
+    .breaks{
+        display: none;
+    }
+    .header{
+        background-image: none;
+    }
+    .header_mobile{
+        background-image: url(images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading_logo img{
+        height: 200px;
+        margin-top: 130px;
+    }
+    .content_1 h1{
+        margin-top: 20px;
+    }
+    .content_1 h1{
+        font-size: 65px;
+        margin-top: 50px;
+    }
+    .snippets h1,.access_heading h1,.supercharge_heading h1,.content_5 h1{
+        font-size: 65px;
+        margin-top: 150px;
+    }
+    .content_1 p,.content_2 p,.content_3 p,.content_4 p,.content_5 p{
+        font-size: 32px;
+        margin-top: 45px;
+        margin-bottom: 60px;
+    }
+    .sub_snippets_2 h3,.buhari h3{
+        font-size: 40px;
+    }
+    .obj,.buhari,.tinubu,.content_6,.section_1,.dapo{
+        flex-direction: column;
+    }
+    .ios button,.mac button{
+        font-size: 35px;
+        padding: 25px 150px;
+        border-radius: 50px;
+        margin: 10px;
+    }
+    .sub_snippets_2{
+        margin-left: 0;
+    }
+    .main_snippets{
+        flex-direction: column;
+        align-items: center;
+    }
+    .quick,.icloud,.complete{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .sub_snippets_1 img{
+        height: 450px;
+        left: 0;
+    }
+    .buhari img{
+        height: 40px;
+    }
+    .access_img img{
+        height: 410px;
+    }
+    .tinubu{
+        align-items: center;
+        margin-top: 20px;
+    }
+    .google_logo,.ibm_logo,.microsoft_logo,.hp_logo,.vector_logo{
+        margin: 60px;
+        height: 60px;
+    }
+    .dapo{
+        margin-bottom: 150px;
+    }
+    .content_6{
+        position: initial;
+        padding: 70px;
+    }
+    .foot_logo{
+        height: 90px;
+    }
+    .sub_2 ul li a,.sub_3 ul li a{
+       line-height: 3;
+    }
+    .sub_2 ul li ,.sub_3 ul li,.sub_4 ul li{
+        margin: 10px;
+        text-align: center;
+    }
+    .sub_2,.sub_3,.sub_4{
+        margin: 5px;
+    }
+    .sub_2 ul li a,.sub_3 ul li a,.sub_4 ul li a{
+        font-size: 30px;
+    }
+    .socials i{
+        font-size: 50px;
+        margin-top: 50px;
+    }
+} 
+@media(max-width: 425px){
+    .breaks{
+        display: none;
+    }
+    .header_mobile{
+        height: 400px;
+    }
+    .heading_logo img{
+        height: 150px;
+    }
+    .content_1 h1{
+        font-size: 34px;
+        margin-top: 15px;
+    }
+    .snippets h1,.supercharge_heading h1,.content_5 h1{
+        font-size: 34px;
+        margin-top: 65px;
+    }
+    .access_heading h1{
+        font-size: 34px;
+        margin-top: 20px;
+    }
+    .sub_snippets_1 img{
+        height: 260px;
+        left: 0;
+    }
+    .access_heading{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .content_1 p,.content_2 p,.content_3 p,.content_4 p,.content_5 p{
+        font-size: 17px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .buhari img{
+        height: 25px;
+    }   
+    .access_img img{
+        width: 80%;
+        height: 210px;
+        align-items: center;
+        justify-content: center;
+    }
+    .google_logo,.ibm_logo,.microsoft_logo,.hp_logo,.vector_logo{
+        margin: 50px;
+        height: 35px;
+    }
+    .google_logo img,.ibm_logo img,.microsoft_logo img,.hp_logo img,.vector_logo img{
+        height: 40px;
+    }
+    .ios button, .mac button {
+        font-size: 18px;
+        padding: 20px 88px;
+        border-radius: 50px;
+        margin: 5px
+    }
+    .sub_snippets_2 h3,.buhari h3{
+        font-size: 25px;
+    }
+    .sub_2 ul li a, .sub_3 ul li a, .sub_4 ul li a {
+        font-size: 25px;
+    }
+    .content_6 {
+        position: initial;
+        padding: 55px;
+    }
+    .socials i {
+        font-size: 40px;
+    }
+}
+@media(max-width:375px){
+    .breaks{
+        display: none;
+    }
+    .header_mobile{
+        height: 350px;
+    }
+    .heading_logo img{
+        height: 120px;
+    }
+    .content_1 h1{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .snippets h1,.supercharge_heading h1,.content_5 h1{
+        font-size: 30px;
+        margin-top: 35px;
+    }
+    .access_heading h1{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .sub_snippets_1 img{
+        height: 210px;
+        left: 0;
+    }
+    .access_heading{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .content_1 p,.content_2 p,.content_3 p,.content_4 p,.content_5 p{
+        font-size: 15px;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+    .blacklists, .plain_text, .preview {
+        text-align: center;
+        margin: 1px;
+    }
+    .buhari img{
+        height: 20px;
+        margin-top: 20px;
+    }   
+    .access_img img{
+        width: 80%;
+        margin-top: 20px;
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+    }
+    .google_logo,.ibm_logo,.microsoft_logo,.hp_logo,.vector_logo{
+        margin: 45px;
+        height: 30px;
+    }
+    .google_logo img,.ibm_logo img,.microsoft_logo img,.hp_logo img,.vector_logo img{
+        height: 40px;
+    }
+    .ios button, .mac button {
+        font-size: 11px;
+        padding: 18px 80px;
+        border-radius: 50px;
+        margin: 3px;
+    }
+    .sub_snippets_2 h3,.buhari h3{
+        font-size: 25px;
+    }
+    .sub_2 ul li a, .sub_3 ul li a, .sub_4 ul li a {
+        font-size: 20px;
+    }
+    .sub_2 ul li a, .sub_3 ul li a {
+        line-height: 2;
+    }
+    .foot_logo {
+        height: 70px;
+    }
+    .socials i {
+        font-size: 30px;
+    }
+}
+@media(max-width:320px){
+    .breaks{
+        display: none;
+    }
+    .header_mobile{
+        height: 300px;
+    }
+    .heading_logo img{
+        height: 100px;
+        margin-top: 30%;
+    }
+    .content_1 h1 {
+        font-size: 25px;
+        margin-top: 1px;
+    }
+    .snippets h1,.supercharge_heading h1,.content_5 h1{
+        font-size: 25px;
+        margin-top: 35px;
+    }
+    .access_heading h1{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .sub_snippets_1 img{
+        height: 180px;
+        left: 0;
+    }
+    .access_heading{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .content_1 p,.content_2 p,.content_3 p,.content_4 p,.content_5 p{
+        font-size: 12px;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    .blacklists, .plain_text, .preview {
+        text-align: center;
+        margin: 1px;
+    }
+    .buhari img{
+        height: 15px;
+        margin-top: 20px;
+    }   
+    .access_img img{
+        width: 80%;
+        margin-top: 17px;
+        height: 170px;
+        align-items: center;
+        justify-content: center;
+    }
+    .ios button, .mac button {
+        font-size: 10px;
+        padding: 15px 65px;
+        border-radius: 50px;
+        margin: 1px;
+    }
+    .sub_snippets_2 h3,.buhari h3{
+        font-size: 15px;
+    }
+    .sub_2 ul li a, .sub_3 ul li a, .sub_4 ul li a {
+        font-size: 15px;
+    }
+    .sub_2 ul li a, .sub_3 ul li a {
+        line-height: 2;
+    }
+    .foot_logo {
+        height: 70px;
+    }
+    .socials i {
+        font-size: 25px;
+    }
+}
